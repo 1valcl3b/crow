@@ -4,8 +4,7 @@ Crow é uma ferramenta de monitoramento e atualização automática de container
 
 O projeto foi desenvolvido utilizando Python, Docker SDK e Flask, fornecendo uma interface web para gerenciamento do monitoramento.
 
-
-[Vídeo demo do Crow](https://drive.google.com/drive/folders/1E3_Gj1HX8jhLEx9tRARIDYxlm8bzkNN3?usp=drive_link)
+[Vídeo demo do Crow](https://drive.google.com/drive/folders)
 ---
 
 # Arquitetura da Solução
