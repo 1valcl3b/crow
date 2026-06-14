@@ -32,13 +32,6 @@ Permite:
 * Definir intervalo de verificação;
 * Iniciar ou parar o monitoramento.
 
-Arquivos principais:
-
-* `app/views.py`
-* `app/templates/index.html`
-* `app/static/dashboard.js`
-* `app/static/style.css`
-
 ---
 
 ### Scheduler
