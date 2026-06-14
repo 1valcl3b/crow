@@ -1,0 +1,3 @@
+CONTAINERS_PROTEGIDOS = ["crow","crow_app"]
+
+FORCAR_ATUALIZACAO = True

@@ -1,0 +1,7 @@
+{
+    "imagens": [
+        "nginx:latest",
+        "redis:latest",
+        "httpd:latest"
+    ]
+}
