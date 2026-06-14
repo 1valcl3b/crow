@@ -105,7 +105,7 @@ Arquivo principal:
 
 # Funcionamento da Detecção
 
-O Crow monitora imagens Docker definidas pelo usuário através da interface web. Sempre que uma imagem é adicionada ou removida pelo dashboard, a aplicação atualiza automaticamente o arquivo images.json, que funciona como fonte de configuração das imagens monitoradas. Abaixo é apresentado um exemplo da estrutura desse arquivo:
+O Crow monitora imagens Docker definidas pelo usuário através da interface web. Sempre que uma imagem é adicionada ou removida pelo dashboard, a aplicação atualiza automaticamente o arquivo `images.json`, que funciona como fonte de configuração das imagens monitoradas. Abaixo é apresentado um exemplo da estrutura desse arquivo:
 
 ```json
 {
@@ -292,7 +292,7 @@ Na interface:
 ![definir-intervalo-crow](./screenshots/60s-crow.png)
 ---
 
-Para parar o Monitoramento basta clicar no botão ``Parar``, O scheduler permanecerá ativo, porém sem executar verificações.
+Para parar o Monitoramento basta clicar no botão `Parar`, O scheduler permanecerá ativo, porém sem executar verificações.
 
 ---
 
