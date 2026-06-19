@@ -332,7 +332,7 @@ Para parar o Monitoramento basta clicar no botão `Parar`, O scheduler permanece
 
 
 3. Você pode acompanhar os logs exibidos na tela por meio do card `Logs do Sistema`.
-4. 
+
 ![definir-intervalo-crow](./screenshots/card-logs-crow.png)
 ---
 
