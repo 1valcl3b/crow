@@ -4,8 +4,40 @@ Crow é uma ferramenta de monitoramento e atualização automática de container
 
 O projeto foi desenvolvido utilizando Python, Docker SDK e Flask, fornecendo uma interface web para gerenciamento do monitoramento.
 
-[Vídeo demo do Crow](https://drive.google.com/drive/folders)
+[Vídeo demo do Crow]([https://drive.google.com/drive/folders](https://drive.google.com/drive/u/1/folders/12hhqvv4hZoNcFRdkDC6o8x1eo893yCe6))
 ---
+
+# Estrutura do README
+
+Este documento está organizado nas seguintes seções:
+
+1. **Arquitetura da Solução**
+   - Visão geral dos componentes do Crow.
+   - Descrição do Dashboard Web, Scheduler, Docker Manager, Image Manager e Updater.
+
+2. **Funcionamento da Detecção**
+   - Processo de monitoramento das imagens Docker.
+   - Utilização do arquivo `images.json`.
+   - Comparação de Image IDs para identificação de novas versões.
+
+3. **Estratégia de Atualização**
+   - Coleta das configurações do container.
+   - Processo de parada, remoção e recriação.
+   - Registro das operações em log.
+
+4. **Estrutura do Projeto**
+   - Organização dos diretórios e arquivos que compõem o Crow.
+
+5. **Instruções de Execução**
+   - Pré-requisitos.
+   - Clonagem do repositório.
+   - Inicialização da aplicação.
+   - Acesso ao dashboard e configuração do monitoramento.
+
+6. **Limitações Atuais**
+   - Funcionalidades ainda não suportadas pela versão atual.
+
+--- 
 
 # Arquitetura da Solução
 
@@ -260,11 +292,16 @@ git clone https://github.com/1valcl3b/crow
 
 ```
 
+```
+cd crow
+```
+
+
 ```bash
 ./crow.sh --start
 ```
 
-O script realiza recebe alguns parametros para realizar algumas ações confira na imagem abaixo:
+O script recebe alguns parametros para realizar algumas ações confira na imagem abaixo:
 
 
 ![uso-script-crow](./screenshots/crow-script.png)
@@ -326,14 +363,3 @@ Ainda não são restaurados automaticamente:
 Essas funcionalidades podem ser incorporadas em versões futuras.
 
 ---
-
-# Trabalhos Futuros
-
-* Atualização segura com rollback;
-* Histórico de versões;
-* Suporte completo a Docker Compose;
-* Dashboard com métricas em tempo real;
-* Sistema de notificações;
-* Autenticação na interface web;
-* API REST documentada;
-* Exportação de logs e relatórios.
