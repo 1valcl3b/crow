@@ -319,11 +319,11 @@ http://localhost:5000
 
 ## Configurar o Monitoramento
 
-Na interface:
+1. Uma vez na interface web do Crow, especificamente no card `Imagens Monitoradas`, adicione as imagens que deseja monitorar, conforme o exemplo abaixo:
 
-1. Adicionar imagens desejadas;
-2. Definir intervalo em segundos;
-3. Clicar em "Iniciar".
+![adicionar-images-crow](./screenshots/card-add-images.png)
+
+2. Agora, no card `Controle do Monitoramento`, defina o intervalo em segundos e, em seguida, clique em `Iniciar`.
 
 ![definir-intervalo-crow](./screenshots/60s-crow.png)
 ---
