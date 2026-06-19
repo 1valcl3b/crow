@@ -34,10 +34,10 @@ case "$1" in
         echo
         echo "Uso:"
         echo
-        echo "  ./run.sh --start (Iniciar o Crow)"
-        echo "  ./run.sh --destroy (Parar e limpar os Logs)"
-        echo "  ./run.sh --restart (Reinicar o Crow)"
-        echo "  ./run.sh --logs (Visualizar Logs)"
+        echo "  ./crow.sh --start (Iniciar o Crow)"
+        echo "  ./crow.sh --destroy (Parar e limpar os Logs)"
+        echo "  ./crow.sh --restart (Reinicar o Crow)"
+        echo "  ./crow.sh --logs (Visualizar Logs)"
         echo
         ;;
 esac
